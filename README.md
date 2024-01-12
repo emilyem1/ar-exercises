@@ -1,5 +1,7 @@
 # Active Record Exercises
 
+Exercises through Lighthoue Labs to learn and practice Active Record.
+
 ## Introduction
 
 You'll find that this project has two Active Record "models" (classes):
@@ -51,9 +53,9 @@ You can work with the models with irb by running
 
 1. Use Active Record's `create` class method multiple times to create 3 stores in the database:
 
-- Burnaby (annual_revenue of 300000, carries men's and women's apparel)
-- Richmond (annual_revenue of 1260000 carries women's apparel only)
-- Gastown (annual_revenue of 190000 carries men's apparel only)
+- Burnaby (annual_revenue of 300,000, carries men's and women's apparel)
+- Richmond (annual_revenue of 1,260,000 carries women's apparel only)
+- Gastown (annual_revenue of 190,000 carries men's apparel only)
 
 2. Output (`puts`) the number of the stores using ActiveRecord's `count` method, to ensure that there are three stores in the database.
 
@@ -73,9 +75,9 @@ You can work with the models with irb by running
 
 1. Borrowing and modifying the code from Exercise one, create 3 more stores:
 
-- Surrey (annual_revenue of 224000, carries women's apparel only)
-- Whistler (annual_revenue of 1900000 carries men's apparel only)
-- Yaletown (annual_revenue of 430000 carries men's and women's apparel)
+- Surrey (annual_revenue of 224,000, carries women's apparel only)
+- Whistler (annual_revenue of 1,900,000 carries men's apparel only)
+- Yaletown (annual_revenue of 430,000 carries men's and women's apparel)
 
 2. Using the `where` class method from Active Record, fetch (a collection of) only those stores that carry men's apparel. Assign the results to a variable `@mens_stores`.
 3. Loop through each of these stores and output their name and annual revenue on each line.
